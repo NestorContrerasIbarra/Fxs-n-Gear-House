@@ -259,6 +259,43 @@ main .heroinstrumentos a img{
 }
 
 /*! --- MAIN PARTES--- */
+.heropartes{
+    padding: 20px;
+    display: grid;
+    grid-template-rows: repeat(4,1fr);
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.heropartes a img{
+    padding: 10px;
+    box-shadow: 0px 0px 15px 6px rgba(255, 255, 255, 0.79);
+-webkit-box-shadow: 0px 0px 15px 6px rgba(255, 255, 255, 0.79);
+-moz-box-shadow: 0px 0px 15px 6px rgba(255, 255, 255, 0.79);
+}
+.comprarparte1{
+    color: white;
+    text-shadow: black 3px -2px;
+}
+.comprarparte2{
+    color: white;
+    text-shadow: black 3px -2px;
+}
+.comprarparte3{
+    color: white;
+    text-shadow: black 3px -2px;
+}
+.comprarparte4{
+    color: white;
+    text-shadow: black 3px -2px;
+}
+.comprarparte5{
+    color: white;
+    text-shadow: black 3px -2px;
+}
+.comprarparte6{
+    color: white;
+    text-shadow: black 3px -2px;
+}
 
 /*! --- FOOTER --- */
 footer{
@@ -278,11 +315,28 @@ body footer a img{
 
 @media screen and (max-width:950px){
 
+/*! --- HEADER --- */
+header nav ul{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+}
+header nav ul li a{
+    text-shadow: black 3px -2px;
+    text-decoration:none;
+    color: antiquewhite;
+    font-size: 30px;
+}
+
+/*! --- MAIN INDEX --- */
+
 /*! --- MAIN INSTRUMENTOS--- */
 main .heroinstrumentos{
     padding: 50px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
@@ -293,6 +347,29 @@ main .heroinstrumentos{
     display: grid;
     grid-template-rows: repeat(2,1fr);
     grid-template-columns: repeat(1,1fr);
-    gap: 20px;
+}
+
+/*! --- MAIN PEDALES--- */
+.heropedales{
+    padding: 50px;
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(1,1fr);
+}
+
+/*! --- MAIN AUDIO--- */
+.row{
+    padding: 50px;
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(1,1fr);
+}
+
+/*! --- MAIN PARTES--- */
+.heropartes{
+    padding: 50px;
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(1,1fr);
 }
 }
