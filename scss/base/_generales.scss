@@ -4,7 +4,7 @@
     font-family: Lobster;
     box-sizing: border-box;
 }
-//! VARIABLE
+//! VARIABLES
 $color-principal: black; 
 $color-principal: white; 
 $color-principal: antiquewhite; 
@@ -17,3 +17,38 @@ $color-principal: rgb(243, 145, 16);
 //! MAPAS
 
 //! EXTENDS
+%flex{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+%background{
+    background-color: antiquewhite;
+}
+%box{
+    box-shadow: 0px 0px 15px 6px rgba(255, 255, 255, 0.79);
+    -webkit-box-shadow: 0px 0px 15px 6px rgba(255, 255, 255, 0.79);
+    -moz-box-shadow: 0px 0px 15px 6px rgba(255, 255, 255, 0.79);
+}
+.hero{
+    @extend %flex;
+}
+main{
+    @extend %background;
+    @extend %box;
+}
+
+//! MIXINS
+@mixin flex($flex, $justify, $align,){
+    display: $flex;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+main{
+    @include flex(flex, space-evenly, center)
+}
+
+//! CONDICIONAL
+
+//! BUCLES

@@ -1,1 +1,40 @@
 /*! --- HEADER --- */
+header{
+    h1{
+        margin: auto;
+        position: sticky;
+        top: 0;
+        color: antiquewhite;
+        font-size: 40px;
+        text-align: center;
+        background-image: url(../img/muro-hormigon-marron-aranazos.jpg);
+    }
+    h2{
+        margin: auto;
+        font-size: 25px;
+        text-align: center;
+        background-color: rgb(243, 145, 16);
+    }
+    h3{
+        margin: auto;
+        font-size: 25px;
+        text-align: center;
+        background-color: antiquewhite;
+    }
+    nav{
+        padding: 10px;
+        ul{
+            display: flex;
+            justify-content:space-evenly;
+            align-items: center;
+            li{
+                text-shadow: black 3px -2px;
+                text-decoration:none;
+                a{
+                    color: antiquewhite;
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+}

@@ -1,16 +1,313 @@
 /*! --- RESET --- */
 * {
-    font-weight: lighter;
-    font-family: Lobster;
-    box-sizing: border-box; 
-}
+  font-weight: lighter;
+  font-family: Lobster;
+  box-sizing: border-box; }
+
+.hero {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; }
+
+main {
+  background-color: antiquewhite; }
+
+main {
+  box-shadow: 0px 0px 15px 6px rgba(255, 255, 255, 0.79);
+  -webkit-box-shadow: 0px 0px 15px 6px rgba(255, 255, 255, 0.79);
+  -moz-box-shadow: 0px 0px 15px 6px rgba(255, 255, 255, 0.79); }
+
+main {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; }
 
 /*! --- HEADER --- */
+header h1 {
+  margin: auto;
+  position: sticky;
+  top: 0;
+  color: antiquewhite;
+  font-size: 40px;
+  text-align: center;
+  background-image: url(../img/muro-hormigon-marron-aranazos.jpg); }
+
+header h2 {
+  margin: auto;
+  font-size: 25px;
+  text-align: center;
+  background-color: #f39110; }
+
+header h3 {
+  margin: auto;
+  font-size: 25px;
+  text-align: center;
+  background-color: antiquewhite; }
+
+header nav {
+  padding: 10px; }
+  header nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; }
+    header nav ul li {
+      text-shadow: black 3px -2px;
+      text-decoration: none; }
+      header nav ul li a {
+        color: antiquewhite;
+        font-size: 30px; }
+
 /*! --- MAIN INDEX --- */
+main {
+  width: 100%;
+  height: 100%; }
+  main .hero h2 {
+    padding: 1px;
+    text-shadow: black 3px -2px;
+    color: white;
+    font-size: 40px;
+    text-align: center; }
+  main .hero p {
+    padding: 1px;
+    text-shadow: black 3px -2px;
+    color: white;
+    font-size: 30px;
+    text-align: center; }
+  main .hero a {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    main .hero a img {
+      width: 60%;
+      height: 20%;
+      box-shadow: 0px 0px 15px 6px rgba(255, 255, 255, 0.79);
+      -webkit-box-shadow: 0px 0px 15px 6px rgba(255, 255, 255, 0.79);
+      -moz-box-shadow: 0px 0px 15px 6px rgba(255, 255, 255, 0.79); }
+  main .mensajecompra p {
+    padding: 20px;
+    text-shadow: black 3px -2px;
+    color: white;
+    font-size: 40px;
+    text-align: center; }
+  main .mensajecompra a {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    main .mensajecompra a img {
+      width: 60%;
+      height: 20%;
+      height: 500px;
+      box-shadow: 0px 0px 15px 6px rgba(255, 255, 255, 0.79);
+      -webkit-box-shadow: 0px 0px 15px 6px rgba(255, 255, 255, 0.79);
+      -moz-box-shadow: 0px 0px 15px 6px rgba(255, 255, 255, 0.79); }
+
 /*! --- MAIN INSTRUMENTOS--- */
+.heroinstrumentos .comprarguitarra1 {
+  color: white;
+  text-shadow: black 3px -2px; }
+
+.heroinstrumentos .comprarguitarra2 {
+  color: white;
+  text-shadow: black 3px -2px; }
+
+.heroinstrumentos .comprarguitarra3 {
+  color: white;
+  text-shadow: black 3px -2px; }
+
+.heroinstrumentos .comprarguitarra4 {
+  color: white;
+  text-shadow: black 3px -2px; }
+
+.heroinstrumentos .comprarguitarra5 {
+  color: white;
+  text-shadow: black 3px -2px; }
+
+.heroinstrumentos .comprarguitarra6 {
+  color: white;
+  text-shadow: black 3px -2px; }
+
+.heroinstrumentos .comprarguitarra7 {
+  color: white;
+  text-shadow: black 3px -2px; }
+
+.heroinstrumentos .comprarguitarra8 {
+  color: white;
+  text-shadow: black 3px -2px; }
+
+.heroinstrumentos a img {
+  padding: 10px;
+  box-shadow: 0px 0px 15px 6px rgba(255, 255, 255, 0.79);
+  -webkit-box-shadow: 0px 0px 15px 6px rgba(255, 255, 255, 0.79);
+  -moz-box-shadow: 0px 0px 15px 6px rgba(255, 255, 255, 0.79); }
+
 /*! --- MAIN AMPLIFICADORES--- */
+.heroamplificadores .comprarampli1 {
+  color: white;
+  text-shadow: black 3px -2px; }
+
+.heroamplificadores .comprarampli2 {
+  color: white;
+  text-shadow: black 3px -2px; }
+
+.heroamplificadores .comprarampli3 {
+  color: white;
+  text-shadow: black 3px -2px; }
+
+.heroamplificadores .comprarampli4 {
+  color: white;
+  text-shadow: black 3px -2px; }
+
+.heroamplificadores .comprarampli5 {
+  color: white;
+  text-shadow: black 3px -2px; }
+
+.heroamplificadores .comprarampli6 {
+  color: white;
+  text-shadow: black 3px -2px; }
+
+.heroamplificadores .comprarampli7 {
+  color: white;
+  text-shadow: black 3px -2px; }
+
+.heroamplificadores .comprarampli8 {
+  color: white;
+  text-shadow: black 3px -2px; }
+
+.heroamplificadores a img {
+  padding: 10px;
+  box-shadow: 0px 0px 15px 6px rgba(255, 255, 255, 0.79);
+  -webkit-box-shadow: 0px 0px 15px 6px rgba(255, 255, 255, 0.79);
+  -moz-box-shadow: 0px 0px 15px 6px rgba(255, 255, 255, 0.79); }
+
 /*! --- MAIN PEDALES--- */
+.heropedales {
+  padding: 20px;
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px; }
+  .heropedales .comprarpedal1 {
+    color: white;
+    text-shadow: black 3px -2px; }
+  .heropedales .comprarpedal2 {
+    color: white;
+    text-shadow: black 3px -2px; }
+  .heropedales .comprarpedal3 {
+    color: white;
+    text-shadow: black 3px -2px; }
+  .heropedales a img {
+    padding: 10px;
+    box-shadow: 0px 0px 15px 6px rgba(255, 255, 255, 0.79);
+    -webkit-box-shadow: 0px 0px 15px 6px rgba(255, 255, 255, 0.79);
+    -moz-box-shadow: 0px 0px 15px 6px rgba(255, 255, 255, 0.79); }
+
 /*! --- MAIN AUDIO--- */
+.card {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  color: antiquewhite;
+  text-decoration: none;
+  font-size: 30px;
+  padding: 10px; }
+
+.card-body {
+  padding: 10px;
+  box-shadow: 0px 0px 15px 6px rgba(255, 255, 255, 0.79);
+  -webkit-box-shadow: 0px 0px 15px 6px rgba(255, 255, 255, 0.79);
+  -moz-box-shadow: 0px 0px 15px 6px rgba(255, 255, 255, 0.79); }
+
+.row {
+  padding: 20px;
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px; }
+
 /*! --- MAIN PARTES--- */
+.heropartes {
+  padding: 20px;
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px; }
+  .heropartes .comprarparte1 {
+    color: white;
+    text-shadow: black 3px -2px; }
+  .heropartes .comprarparte2 {
+    color: white;
+    text-shadow: black 3px -2px; }
+  .heropartes .comprarparte3 {
+    color: white;
+    text-shadow: black 3px -2px; }
+  .heropartes .comprarparte4 {
+    color: white;
+    text-shadow: black 3px -2px; }
+  .heropartes .comprarparte5 {
+    color: white;
+    text-shadow: black 3px -2px; }
+  .heropartes .comprarparte6 {
+    color: white;
+    text-shadow: black 3px -2px; }
+  .heropartes a img {
+    padding: 10px;
+    box-shadow: 0px 0px 15px 6px rgba(255, 255, 255, 0.79);
+    -webkit-box-shadow: 0px 0px 15px 6px rgba(255, 255, 255, 0.79);
+    -moz-box-shadow: 0px 0px 15px 6px rgba(255, 255, 255, 0.79); }
+
 /*! --- FOOTER --- */
+footer {
+  background-color: antiquewhite;
+  text-align: center; }
+  footer a img {
+    background-color: antiquewhite;
+    padding: 30px;
+    margin: 10px;
+    border: 5px solid black;
+    width: 100px;
+    height: 100px; }
+
 /*! --- MEDIA QUERY --- */
+/*! --- HEADER --- */
+header nav ul {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center; }
+
+/*! --- MAIN INSTRUMENTOS--- */
+.heroinstrumentos {
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap; }
+
+/*! --- MAIN AMPLIFICADORES--- */
+.heroamplificadores {
+  padding: 50px;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr); }
+
+/*! --- MAIN PEDALES--- */
+.heropedales {
+  padding: 50px;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr); }
+
+/*! --- MAIN AUDIO--- */
+.row {
+  padding: 50px;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr); }
+
+/*! --- MAIN PARTES--- */
+.heropartes {
+  padding: 50px;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr); }
